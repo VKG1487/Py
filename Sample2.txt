@@ -1,0 +1,26 @@
+Input:
+How many meals would you like to enter? (e.g. 3): 4
+Enter name for meal #1 (e.g. Breakfast): Breakfast
+Enter calories for 'Breakfast' (number): 400
+Enter name for meal #2 (e.g. Breakfast): Brunch
+Enter calories for 'Brunch' (number): 300
+Enter name for meal #3 (e.g. Breakfast): Lunch
+Enter calories for 'Lunch' (number): 800
+Enter name for meal #4 (e.g. Breakfast): Dinner
+Enter calories for 'Dinner' (number): 900
+Enter your daily calorie limit (e.g. 2000): 2000
+Do you want to save this session to a file? (y/n): y
+
+Output:
+Meal Name	Calories
+-------------------------
+Breakfast          400.0
+Brunch             300.0
+Lunch              800.0
+Dinner             900.0
+-------------------------
+Total Calories:   2400.0
+Average:            600.0
+Status:        Exceeded Limit ⚠️
+
+(Session saved to calorie_log_YYYYMMDD_HHMMSS.txt)
