@@ -1,0 +1,18 @@
+Input:
+How many meals would you like to enter? (e.g. 3): 2
+Enter name for meal #1 (e.g. Breakfast): Snack
+Enter calories for 'Snack' (number): 150
+Enter name for meal #2 (e.g. Breakfast): Dinner
+Enter calories for 'Dinner' (number): 700
+Enter your daily calorie limit (e.g. 2000): 1000
+Do you want to save this session to a file? (y/n): n
+
+Output:
+Meal Name	Calories
+-------------------------
+Snack              150.0
+Dinner             700.0
+-------------------------
+Total Calories:    850.0
+Average:            425.0
+Status:        Within Limit ✅ 
